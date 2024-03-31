@@ -1,113 +1,252 @@
+import React from "react";
+import "@/app/global.scss";
 import Image from "next/image";
+import {
+  app,
+  back,
+  back2,
+  back3,
+  belgi,
+  card,
+  city,
+  finger,
+  han,
+  hands,
+  img1,
+  img2,
+  img3,
+  img4,
+  img5,
+  img6,
+  logo,
+  logo2,
+  man,
+  people,
+  tesla,
+} from "@/assets";
 
-export default function Home() {
+const page = () => {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <div className="  bg-white">
+      <header>
+        <div className="header">
+          <div className="card">
+            <div className="card1">
+              <div className="divs ">
+                <div className="div1">
+                  <p className="p1">
+                    Lessons and insights <span>from 8 years</span>
+                  </p>
+                  <p className="p2">
+                    Where to grow your business as a photographer: site or
+                    social media?
+                  </p>
+                  <button className="b1"> Register</button>
+                </div>
+                <div className="div2">
+                  <Image src={back} alt="bc" className="image" />
+                </div>
+              </div>
+            </div>
+            <div className="card2">
+              <div className="divs">
+                <div className="div1">
+                  <p className="p1">Our Clients</p>
+                  <p className="p2">
+                    We have been working with some Fortune 500+ clients
+                  </p>
+                </div>
+                <div className="div2">
+                  <Image src={img1} className="img" alt="img" />
+                  <Image src={img2} className="img" alt="img" />
+                  <Image src={img3} alt="img" className="img" />
+                  <Image src={img4} alt="img" className="img" />
+                  <Image src={img5} alt="img" className="img" />
+                  <Image src={img6} alt="img" className="img" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="cards">
+            <div className="card_1">
+              <div className="divs">
+                <div className="div1">
+                  <p className="pa1">
+                    Manage your entire community in a single system
+                  </p>
+                  <p className="pa2">Who is Nextcent suitable for?</p>
+                </div>
+                <div className="div2">
+                  <div className="div_1">
+                    <div className="d1">
+                      <Image src={city} alt="people" className="imag" />
+                    </div>
+                    <div className="d2">
+                      <p className="pp">Membership Organisations</p>
+                    </div>
+                    <div className="d3">
+                      <p className="pp2">
+                        Our membership management software provides full
+                        automation of membership renewals and payments
+                      </p>
+                    </div>
+                  </div>
+                  <div className="div_1">
+                    <div className="d1">
+                      <Image src={hands} alt="people" className="imag" />
+                    </div>
+                    <div className="d2">
+                      <p className="pp">Membership Organisations</p>
+                    </div>
+                    <div className="d3">
+                      <p className="pp2">
+                        Our membership management software provides full
+                        automation of membership renewals and payments
+                      </p>
+                    </div>
+                  </div>
+                  <div className="div_1">
+                    <div className="d1">
+                      <Image src={people} alt="people" className="imag" />
+                    </div>
+                    <div className="d2">
+                      <p className="pp">Membership Organisations</p>
+                    </div>
+                    <div className="d3">
+                      <p className="pp2">
+                        Our membership management software provides full
+                        automation of membership renewals and payments
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="card_2">
+              <div className="divs">
+                <div className="div1">
+                  <Image src={back2} className="img" alt="" />
+                </div>
+                <div className="div2">
+                  <p className="p1">
+                    The unseen of spending three years at Pixelgrade
+                  </p>
+                  <p className="p2">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                    sit amet justo ipsum. Sed accumsan quam vitae est varius
+                    fringilla. Pellentesque placerat vestibulum lorem sed porta.
+                    Nullam mattis tristique iaculis. Nullam pulvinar sit amet
+                    risus pretium auctor. Etiam quis massa pulvinar, aliquam
+                    quam vitae, tempus sem. Donec elementum pulvinar odio.
+                  </p>
+                  <button className="b1">Learn More</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore starter templates for Next.js.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50 text-balance`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+      </header>
+      <main>
+        <div className="cards">
+          <div className="card1">
+            <div className="divs">
+              <div className="div1">
+                <p className="p1">
+                  Helping a local <br /> <span>business reinvent itself</span>
+                </p>
+                <p className="p2">
+                  We reached here with our hard work and dedication
+                </p>
+              </div>
+              <div className="div2">
+                <div className="div">
+                  <div className="div1">
+                    <Image src={man} alt="man" className="img" />
+                  </div>
+                  <div className="div2">
+                    <p className="p1">2,245,341</p>
+                    <p className="p2">Members</p>
+                  </div>
+                </div>
+                <div className="div">
+                  <div className="div1">
+                    <Image src={han} alt="man" className="img" />
+                  </div>
+                  <div className="div2">
+                    {" "}
+                    <p className="p1">46,328</p>
+                    <p className="p2">Clubs</p>
+                  </div>
+                </div><br />
+                <div className="div">
+                  <div className="div1">
+                    <Image src={finger} alt="man" className="img" />
+                  </div>
+                  <div className="div2">
+                    <p className="p1">828,867</p>
+                    <p className="p2">Event Bookings</p>
+                  </div>
+                </div>
+                <div className="div">
+                  <div className="div1">
+                    <Image src={card} alt="man" className="img" />
+                  </div>
+                  <div className="div2">
+                    <p className="p1">1,926,436</p>
+                    <p className="p2">Payments</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="card_2">
+              <div className="divs">
+                <div className="div1">
+                  <Image src={back3} className="img" alt="" />
+                </div>
+                <div className="div2">
+                  <p className="p1">
+                  How to design your site footer like we did
+                  </p>
+                  <p className="p2">
+                  Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor, augue nec tincidunt molestie, massa nunc varius arcu, at scelerisque elit erat a magna. Donec quis erat at libero ultrices mollis. In hac habitasse platea dictumst. Vivamus vehicula leo dui, at porta nisi facilisis finibus. In euismod augue vitae nisi ultricies, non aliquet urna tincidunt. Integer in nisi eget nulla commodo faucibus efficitur quis massa. Praesent felis est, finibus et nisi ac, hendrerit venenatis libero. Donec consectetur faucibus ipsum id gravida.
+                  </p>
+                  <button className="b1">Learn More</button>
+                </div>
+              </div>
+              <div className="div_s">
+                <div className="div_1">
+                  <Image src={tesla} alt="tesla" className="img" />
+                </div>
+                <div className="div_2">
+                  <p className="p1">
+                  Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu enim metus. Vivamus sed libero ornare, tristique quam in, gravida enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet elit at ligula molestie, nec molestie mi blandit. Suspendisse cursus tellus sed augue ultrices, quis tristique nulla sodales. Suspendisse eget lorem eu turpis vestibulum pretium. Suspendisse potenti. Quisque malesuada enim sapien, vitae placerat ante feugiat eget. Quisque vulputate odio neque, eget efficitur libero condimentum id. Curabitur id nibh id sem dignissim finibus ac sit amet magna.
+                  </p>
+                  <p className="p2">Tim Smith</p>
+                  <p className="p3">British Dragon Boat Racing Association</p>
+                  <div className="imgs">
+                    <Image src={app} className="logo" alt="aa" />
+                    <Image src={img1} className="logo" alt="aa" />
+                    <Image src={img2} className="logo" alt="aa" />
+                    <Image src={logo2} className="logo" alt="aa" />
+                    <Image src={img4} className="logo" alt="aa" />
+                    <Image src={img5} className="logo" alt="aa" />
+                    <p className="pp">
+                    Meet all customers
+                    <Image src={belgi} alt="st" className="img"/>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          <div className="card3">
+            <p className="p1">Pellentesque suscipit fringilla libero eu.</p>
+            <b className="b1">Get a Demo</b>
+          </div>
+        </div>
+      </main>
+    </div>
   );
-}
+};
+
+export default page;
