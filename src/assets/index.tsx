@@ -17,6 +17,9 @@ import people from "@/assets/images/people.png";
 import card from "@/assets/images/card.png";
 import finger from "@/assets/images/finger.png";
 import han from "@/assets/images/han.png";
+import back11 from "@/assets/images/back11.png";
+import back22 from "@/assets/images/back22.png";
+import back33 from "@/assets/images/back33.png";
 import man from "@/assets/images/man.png";
 import tesla from "@/assets/images/tesla.png";
 import yout from "@/assets/images/yout.png";
@@ -25,6 +28,9 @@ import ins from "@/assets/images/ins.png";
 import ball from "@/assets/images/ball.png";
 
 export {
+  back11,
+  back22,
+  back33,
   logo2,
   yout,
   ins,

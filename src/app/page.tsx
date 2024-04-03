@@ -4,8 +4,11 @@ import Image from "next/image";
 import {
   app,
   back,
+  back11,
   back2,
+  back22,
   back3,
+  back33,
   belgi,
   card,
   city,
@@ -224,7 +227,7 @@ const page = () => {
                   </p>
                   <p className="p2">Tim Smith</p>
                   <p className="p3">British Dragon Boat Racing Association</p>
-                  <div className="imgs">
+                  <div className="imgs"> 
                     <Image src={app} className="logo" alt="aa" />
                     <Image src={img1} className="logo" alt="aa" />
                     <Image src={img2} className="logo" alt="aa" />
@@ -239,6 +242,32 @@ const page = () => {
                 </div>
               </div>
             </div>
+          <div className="card_23">
+            <p className="p1">Caring is the new marketing</p>
+            <p className="p2">The Nexcent blog is the best place to read about the latest membership insights, trends and more. See who's joining the community, read about how our community are increasing their membership income and lot's more.​</p>
+            <div className="divs">
+              <div className="div1">
+                <Image src={back11} className="img"  alt="" />
+                <div className="text">
+                  <p className="pp1">Creating Streamlined Safeguarding Processes with OneRen</p>
+                  <p className="pp2">Readmore </p>
+                </div>
+              </div>
+              <div className="div1">  <Image src={back22} className="img"  alt="" />
+                <div className="text">
+                  <p className="pp1">Creating Streamlined Safeguarding Processes with OneRen</p>
+                  <p className="pp2">Readmore </p>
+                </div></div>
+              <div className="div1">  <Image src={back33} className="img"  alt="" />
+                <div className="text">
+                  <p className="pp1">Creating Streamlined Safeguarding Processes with OneRen</p>
+                  <p className="pp2">Readmore </p>
+                </div></div>
+            </div>
+          </div>
+
+
+
           <div className="card3">
             <p className="p1">Pellentesque suscipit fringilla libero eu.</p>
             <b className="b1">Get a Demo</b>
