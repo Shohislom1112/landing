@@ -1,6 +1,8 @@
-import logo from "@/assets/images/Logo.png";
+import logo from "@/assets/images/Logo12.png";
+import logo12 from "@/assets/images/Logo.png";
 import logo2 from "@/assets/images/logo1.png";
 import belgi from "@/assets/images/Right.png";
+import telegram from "@/assets/images/Vector.png";
 import app from "@/assets/images/apps.png";
 import back from "@/assets/images/back1.png";
 import back2 from "@/assets/images/back2.png";
@@ -28,6 +30,8 @@ import ins from "@/assets/images/ins.png";
 import ball from "@/assets/images/ball.png";
 
 export {
+  logo12,
+  telegram,
   back11,
   back22,
   back33,

@@ -6,6 +6,7 @@ import { FaRegUserCircle } from "react-icons/fa";
 import Link from "next/link";
 import Image from "next/image";
 import { logo } from "@/assets";
+import '@/components/footer.scss'
 
 const Header = () => {
   const [open, setOpen] = useState(false);
@@ -43,48 +44,48 @@ const Header = () => {
           <div className="flex justify-between gap-4 align-center">
             <Link
               href={"#"}
-              className="text-[#000]  hover:text-[#505977] cursor-pointer hover:font-normal"
+              className="sm:hidden md:block  text-[#000]  hover:text-[#505977] cursor-pointer hover:font-normal"
             >
               Home
             </Link>
             <Link
               href={"#"}
-              className="text-[#000]  hover:text-[#505977] cursor-pointer hover:font-normal"
+              className="sm:hidden md:block  text-[#000]  hover:text-[#505977] cursor-pointer hover:font-normal"
             >
               Service
             </Link>
             <Link
               href={"#"}
-              className="text-[#000]  hover:text-[#505977] cursor-pointer hover:font-normal"
+              className="sm:hidden md:block  text-[#000]  hover:text-[#505977] cursor-pointer hover:font-normal"
             >
               Feature
             </Link>
 
             <Link
               href={"#"}
-              className="text-[#000]  hover:text-[#505977] cursor-pointer hover:font-normal"
+              className="sm:hidden md:block  text-[#000]  hover:text-[#505977] cursor-pointer hover:font-normal"
             >
               Product
             </Link>
             <Link
               href={"#"}
-              className="text-[#000]  hover:text-[#505977]  cursor-pointer hover:font-normal"
+              className="sm:hidden md:block  text-[#000]  hover:text-[#505977]  cursor-pointer hover:font-normal"
             >
               Testimonial
             </Link>
             <Link
               href={"#"}
-              className="text-[#000]  hover:text-[#505977]  cursor-pointer hover:font-normal"
+              className="sm:hidden md:block text-[#000]  hover:text-[#505977]  cursor-pointer hover:font-normal"
             >
               FAQ
             </Link>
           </div>
           
           <div className="flex gap-4 jus items-center">
-          <button className=" border-solid py-1 px-2 bg-white text-black border-lime-500 hover:border-white hover:bg-lime-500 ease-in hover:text-white hover:rounded-lg">
+          <button className="login ">
               LogIn
             </button>
-            <button className= "border-solid py-1 px-2 border-white hover:border-lime-500 hover:bg-white bg-lime-500 ease-in hover:text-black text-white rounded-lg">
+            <button className= "signin ">
               Sign Up
             </button>
 

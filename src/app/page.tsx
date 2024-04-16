@@ -30,14 +30,14 @@ import {
 
 const page = () => {
   return (
-    <div className="  bg-white">
+    <div className="bg-white">
+      <div className="container">
       <header>
         <div className="header">
           <div className="card">
             <div className="card1">
               <div className="divs ">
-                <div className="div1">
-                  <p className="p1">
+                <div className="div1">                  <p className="p1">
                     Lessons and insights <span>from 8 years</span>
                   </p>
                   <p className="p2">
@@ -176,7 +176,7 @@ const page = () => {
                     <Image src={han} alt="man" className="img" />
                   </div>
                   <div className="div2">
-                    {" "}
+                    
                     <p className="p1">46,328</p>
                     <p className="p2">Clubs</p>
                   </div>
@@ -274,6 +274,7 @@ const page = () => {
           </div>
         </div>
       </main>
+      </div>
     </div>
   );
 };
