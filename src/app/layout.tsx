@@ -19,16 +19,11 @@ export default function RootLayout({
 }>) {
   return (
     <html className=" bg-white " lang="en" suppressHydrationWarning>
-      <body
-        className={`${inter.className} bg-white  transition`}
-      >
+      <body className={`${inter.className} bg-white  transition`}>
         <Providers>
-          <div
-            style={{ transition: "0.5s" }}
-            className=" transition"
-          >
+          <div style={{ transition: "0.5s" }} className=" transition">
             <Header />
-            <main className="">{children}</main>
+            <main>{children}</main>
             <Footer />
           </div>
         </Providers>
