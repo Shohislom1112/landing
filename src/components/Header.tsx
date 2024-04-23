@@ -6,7 +6,7 @@ import { FaRegUserCircle } from "react-icons/fa";
 import Link from "next/link";
 import Image from "next/image";
 import { logo } from "@/assets";
-import '@/components/footer.scss'
+import "@/components/footer.scss";
 
 const Header = () => {
   const [open, setOpen] = useState(false);
@@ -36,9 +36,9 @@ const Header = () => {
     <div
       className={`bg-white h-[90px] pt-6  -top-1 left-0 right-0 z-20 fixed   shadow-lg`}
     >
-      <div className={`container mx-auto pt-7  px-5`}>
-        <div className="flex  justify-between items-center">
-        <div className="">
+      <div className={`container mx-auto pt-7   px-5`}>
+        <div className="flex gap-6  justify-between items-center">
+          <div className="">
             <Image src={logo} className="logo" alt="" />
           </div>
           <div className="flex justify-between gap-4 align-center">
@@ -80,14 +80,10 @@ const Header = () => {
               FAQ
             </Link>
           </div>
-          
+
           <div className="flex gap-4 jus items-center">
-          <button className="login ">
-              LogIn
-            </button>
-            <button className= "signin ">
-              Sign Up
-            </button>
+            <button className="login ">LogIn</button>
+            <button className="signin ">Sign Up</button>
 
             <button
               onClick={handleClick}
@@ -119,8 +115,7 @@ const Header = () => {
             </button>
           </div>
         </div>
-        
-        
+
         <div
           className={`${
             open
@@ -156,9 +151,3 @@ const Header = () => {
 };
 
 export default Header;
-
-
-
-
-
- 
