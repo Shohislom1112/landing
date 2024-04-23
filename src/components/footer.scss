@@ -1,222 +1,53 @@
-.container {
-    box-sizing: border-box;
-    
-    padding: 0 24px;
-}
-.div {
-  max-width: 1440px;
-  height: 328px;
-  background: #263238;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0 25px;
-    @media screen and (max-width:1240px) {
-      width: auto;
-      height: auto;                           
-    }
-
-  .divs {
-    display: flex;
-    justify-content: center;
-    gap: 100px;
-    flex-wrap: wrap;
-   
-    .div1 {
-      margin-top: 25px;
-      display: flex;
-      flex-direction: column;
-      align-items: start;
-      justify-content: space-around;
-      .img {
-        /* Company Info */
-        /* Nexcent */
-
-        // width: 137.84px;
-        // height: 25.54px;
-        /* Inside Auto Layout */
-
-        flex-grow: 0;
-        // margin: 0px 9.890581130981445px;
-      }
-      .pp {
-        width: Hug (350px) px;
-        height: Hug (48px) px;
-        gap: 8px;
-        opacity: 0px;
-
-        /* Body/Regular/Body 3 */
-        color: rgb(245, 247, 250);
-        font-family: Inter;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 20px;
-        letter-spacing: 0%;
-        text-align: left;
-        width: 350px;
-        // height: 20px;
-      }
-      .img {
-        display: flex;
-        gap: 12px;
-        .imag {
-          width: 17.07px;
-          height: 17.07px;
-          // left: 23.34%;
-          // right: 23.34%;
-          // top: 23.34%;
-          // bottom: 23.34%;/* Default / White */
-          //   border-radius: 50%;
-          color: rgb(255, 255, 255);
-          //   background: #3c464c;
-        }
-      }
-    }
-  }
-  .div2 {
-    margin: 34px 0;
-    max-width: 635px;
-    max-height: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    gap: 80px;
-
-    .div1 {
-      display: flex;
-      flex-direction: column;
-      gap: 15px;
-      .p1 {
-        /* Heading/Headline 4 */
-        color: rgb(255, 255, 255);
-        font-family: Inter;
-        font-size: 20px;
-        font-weight: 600;
-        line-height: 28px;
-        letter-spacing: 0%;
-        text-align: left;
-        margin: 15px 0;
-      }
-      .p2 {
-        /* Body/Regular/Body 3 */
-        color: rgb(245, 247, 250);
-        font-family: Inter;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 20px;
-        letter-spacing: 0%;
-        text-align: left;
-      }
-    }
-    .div_2 {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      gap: 30px;
-      align-items: start;
-      margin-bottom: 78px;
-      .ppp {
-        /* Heading/Headline 4 */
-        color: rgb(255, 255, 255);
-        font-family: Inter;
-        font-size: 20px;
-        font-weight: 600;
-        line-height: 28px;
-        letter-spacing: 0%;
-        text-align: left;
-      }
-      .input {
-        width: 255px;
-        height: 40px;
-        border-radius: 8px;
-        display: flex;
-        flex-wrap: nowrap;
-        justify-content: center;
-        align-items: center;
-        gap: 5px;
-
-        /* Default / White */
-        background: rgb(255, 255, 255);
-        opacity: 0.2;
-
-        .search {
-          /* Body/Regular/Body 3 */
-          color: rgb(232, 233, 238);
-          font-family: Inter;
-          font-size: 14px;
-          font-weight: 400;
-          line-height: 20px;
-          letter-spacing: 0%;
-          text-align: left;
-          outline: none;
-          overflow: hidden;
-        }
-        .tel {
-            color: #fff;
-        //   width: 16.5px;
-        //   height: 16.5px;
-        //   background-color: #fff;
-        //   margin-left: 2px;
-        }
-      }
-    }
-  }
-}
-
 .login {
-    align-items: center;
-    padding: 10px 20px 10px 20px;
-    border-radius: 6px;
-    color: rgb(76, 175, 79);
-    font-family: Inter;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 20px;
-    letter-spacing: 0px;
-    text-align: center;
-    transition: 0.8s;
-    border: 1px solid #4CAF4F;
-    background-color: #fff;
-    &:hover {
-        border: 1px solid #fff;
-        color: #fff;
+  align-items: center;
+  padding: 10px 20px 10px 20px;
+  border-radius: 6px;
+  color: rgb(76, 175, 79);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: center;
+  transition: 0.8s;
+  border: 1px solid #4caf4f;
+  background-color: #fff;
+  &:hover {
+    border: 1px solid #fff;
+    color: #fff;
 
-        background: rgb(76, 175, 79);
-    }
+    background: rgb(76, 175, 79);
+  }
 }
 .signin {
-    color: rgb(255, 255, 255);
-    font-family: Inter;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 20px;
-    letter-spacing: 0px;
-    text-align: center;
-    border-radius: 6px;
-    align-items: center;
-    border: 1px solid #fff;
-    padding: 10px 20px 10px 20px;
-    transition: 0.8s;
-    /* Brand/Primary */
-    background: rgb(76, 175, 79);
-    &:hover {
-        color: #4CAF4F;
-        background-color: #fff;
-        border: 1px solid #4CAF4F;
-    }
-
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: center;
+  border-radius: 6px;
+  align-items: center;
+  border: 1px solid #fff;
+  padding: 10px 20px 10px 20px;
+  transition: 0.8s;
+  /* Brand/Primary */
+  background: rgb(76, 175, 79);
+  &:hover {
+    color: #4caf4f;
+    background-color: #fff;
+    border: 1px solid #4caf4f;
+  }
 }
 
-
-@media screen and (max-width:700px) {
-    .a {
-        display: none;
-    }
-   
-    
+@media screen and (max-width: 700px) {
+  .a {
+    display: none;
+  }
 }
-@media screen and (max-width:550px) {
-    .login {
-        display: none;
-    }
-    
-} 
+@media screen and (max-width: 550px) {
+  .login {
+    display: none;
+  }
+}
