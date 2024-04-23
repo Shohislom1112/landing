@@ -28,7 +28,7 @@ export default function RootLayout({
             className=" transition"
           >
             <Header />
-            <main className="mt-32">{children}</main>
+            <main className="">{children}</main>
             <Footer />
           </div>
         </Providers>

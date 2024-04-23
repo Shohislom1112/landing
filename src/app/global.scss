@@ -11,7 +11,7 @@ header {
   .header {
     .card {
       .card1 {
-        // width: Fill (1440px) px;
+        width: Fill (1350px) px;
 
         height: Hug (599px) px;
         padding: 96px 144px 96px 144px;
@@ -20,12 +20,23 @@ header {
         background: #f5f7fa;
         .divs {
           display: flex;
-          // flex-wrap: wrap;
+          
           justify-content: center;
           align-items: center;
-
+          @media screen and (max-width:1240px) {
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            padding: 0;
+            
+          }
           .div1 {
             margin-left: 70px;
+            @media screen and (max-width:1240px) {
+              
+              padding: 0;
+              margin-left:0;
+            }
             .p1 {
               /* Heading/Headline 1 */
               font-family: Inter;
@@ -40,6 +51,11 @@ header {
               span {
                 color: rgb(76, 175, 79);
               }
+              @media screen and (max-width:1240px)  {
+              font-size: 50px;
+              width: auto;
+              height: auto;
+              }
             }
             .p2 {
               padding: 20px 0;
@@ -52,6 +68,10 @@ header {
               letter-spacing: 0%;
               text-align: left;
               color: rgb(113, 113, 113);
+              @media screen and (max-width:1240px) {
+                padding: 10px 0;
+                
+              }
             }
             .b1 {
               /* Body/Medium/Body 2 */
@@ -84,6 +104,12 @@ header {
             order: 1;
             flex-grow: 0;
             margin: 0px 104px;
+            @media screen and (max-width:1240px) {
+              padding: 10px;
+              width: auto;
+              height: auto;
+              
+            }
           }
         }
       }
@@ -92,6 +118,7 @@ header {
         .divs {
           .div1 {
             display: flex;
+            
             flex-direction: column;
             gap: 15px;
             justify-content: center;
@@ -159,6 +186,12 @@ header {
               line-height: 44px;
               letter-spacing: 0%;
               text-align: center;
+              @media screen and (max-width:1240px) {
+                
+                width: auto;
+                height: auto;
+                
+              }
             }
             .pa2 {
               /* Body/Regular/Body 2 */
@@ -176,6 +209,12 @@ header {
             gap: 80px;
             justify-content: space-between;
             align-items: center;
+            @media screen and (max-width:1240px) {
+             
+              width: auto;
+              height: auto;
+              flex-wrap: wrap;
+            }
 
             .div_1 {
               display: flex;
@@ -183,10 +222,31 @@ header {
               justify-content: center;
               align-items: center;
               gap: 5px;
+              @media screen and (max-width:1240px) {
+                padding: 10px;
+                width: auto;
+                height: auto;
+              
+                
+              }
               .d1 {
                 width: 65px;
                 height: 56px;
+                @media screen and (max-width:1240px) {
+                  padding: 10px;
+                  width: auto;
+                  height: auto;
+                
+                  
+                }
                 .imag {
+                  @media screen and (max-width:1240px) {
+                    padding: 10px;
+                    width: auto;
+                    height: auto;
+                  
+                    
+                  }   
                   width: 65px;
                   height: 56px;
                   gap: 0px;
@@ -209,12 +269,25 @@ header {
                   height: 72px;
                   gap: 0px;
                   opacity: 0px;
+                  @media screen and (max-width:1240px) {
+                    padding: 10px;
+                    width: auto;
+                    height: auto;
+                  
+                    
+                  }
                 }
               }
               .d3 {
                 width: 250px;
                 height: 60px;
-
+                @media screen and (max-width:1240px) {
+                  padding: 10px;
+                  width: auto;
+                  height: auto;
+                
+                  
+                }
                 .pp2 {
                   width: 250px;
                   height: 60px;
@@ -228,6 +301,13 @@ header {
                   line-height: 20px;
                   letter-spacing: 0%;
                   text-align: center;
+                  @media screen and (max-width:1240px) {
+                    padding: 10px;
+                    width: auto;
+                    height: auto;
+                  
+                    
+                  }
                 }
               }
             }
@@ -248,6 +328,21 @@ header {
               padding: 52px 0.47px 52.01px 0px;
               gap: 0px;
               opacity: 0px;
+              @media screen and (max-width:1240px) {
+               
+                width: 380px;
+                height: 373px;
+              
+                
+              }
+              @media screen and (max-width:700px) {
+                width: 330px;
+                height: 323px;                           
+              }
+              @media screen and (max-width:550px) {
+                width: auto;
+                height: auto;                           
+              }
             }
           }
           .div2 {
@@ -256,6 +351,9 @@ header {
             gap: 30px;
             align-items: start;
             justify-content: center;
+            @media screen and (max-width:1200px) {
+              align-items: center;                         
+            }
             .p1 {
               /* Heading/Headline 2 */
               color: rgb(77, 77, 77);
@@ -269,6 +367,10 @@ header {
               height: 88px;
               gap: 0px;
               opacity: 0px;
+              @media screen and (max-width:1240px) {
+                width: auto;
+                height: auto;                           
+              }
             }
             .p2 {
               width: 601px;
@@ -283,6 +385,13 @@ header {
               line-height: 20px;
               letter-spacing: 0%;
               text-align: left;
+              @media screen and (max-width:1240px) {
+                padding: 10px;
+                width: auto;
+                height: auto;
+              
+                
+              }
             }
             .b1 {
               /* Body/Medium/Body 2 */
@@ -329,16 +438,28 @@ main {
         align-items: center;
         background-color: #f5f7fa;
         /* Inside Auto Layout */
-
+        @media screen and (max-width:1240px) {
+          flex-wrap:wrap;
+          
+        }
         .div1 {
           width: 540px;
           height: 120px;
+          @media screen and (max-width:1240px) {
+            width: auto;
+            height: auto;                           
+          }
           // margin-right: 50px;
           .p1 {
             width: Hug (408px) px;
             height: Hug (88px) px;
             gap: 8px;
             opacity: 0px;
+            @media screen and (max-width:1240px) {
+              width: auto;
+              height: auto;  
+              text-align: center;                         
+            }
 
             /* Heading/Headline 2 */
             font-family: Inter;
@@ -372,6 +493,11 @@ main {
             height: 24px;
             gap: 0px;
             opacity: 0px;
+            @media screen and (max-width:1240px) {
+              width: auto;
+              height: auto;
+              text-align: center; 
+            }
           }
         }
         .div2 {
@@ -380,7 +506,11 @@ main {
           max-width: 450px;
           max-height: 160px;
           gap: 30px;
-          background-color: none;
+          background-color: #f5f7fa;
+          @media screen and (max-width:1240px) {
+            width: auto;
+            height: auto;                           
+          }
           .div {
             display: flex;
             flex-wrap: nowrap;
@@ -392,6 +522,7 @@ main {
             max-height: 60px;
             gap: 16px;
             opacity: 0px;
+            background-color: #f5f7fa;
 
             .div1 {
               width: 46.78px;
@@ -413,6 +544,10 @@ main {
               gap: 3px;
               justify-content: center;
               align-items: start;
+              @media screen and (max-width:1240px) {
+                
+                align-items: center;                         
+              }
 
               .p1 {
                 /* Heading/Headline 3 */
@@ -730,3 +865,5 @@ main {
     }
   }
 }
+
+

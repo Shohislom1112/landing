@@ -39,43 +39,43 @@ const Header = () => {
       <div className={`container mx-auto pt-7  px-5`}>
         <div className="flex  justify-between items-center">
         <div className="">
-            <Image src={logo} alt="" />
+            <Image src={logo} className="logo" alt="" />
           </div>
           <div className="flex justify-between gap-4 align-center">
             <Link
               href={"#"}
-              className="sm:hidden md:block  text-[#000]  hover:text-[#505977] cursor-pointer hover:font-normal"
+              className="a sm:hidden md:block  text-[#000]  hover:text-[#505977] cursor-pointer hover:font-normal"
             >
               Home
             </Link>
             <Link
               href={"#"}
-              className="sm:hidden md:block  text-[#000]  hover:text-[#505977] cursor-pointer hover:font-normal"
+              className="a sm:hidden md:block  text-[#000]  hover:text-[#505977] cursor-pointer hover:font-normal"
             >
               Service
             </Link>
             <Link
               href={"#"}
-              className="sm:hidden md:block  text-[#000]  hover:text-[#505977] cursor-pointer hover:font-normal"
+              className="a sm:hidden md:block  text-[#000]  hover:text-[#505977] cursor-pointer hover:font-normal"
             >
               Feature
             </Link>
 
             <Link
               href={"#"}
-              className="sm:hidden md:block  text-[#000]  hover:text-[#505977] cursor-pointer hover:font-normal"
+              className="a sm:hidden md:block  text-[#000]  hover:text-[#505977] cursor-pointer hover:font-normal"
             >
               Product
             </Link>
             <Link
               href={"#"}
-              className="sm:hidden md:block  text-[#000]  hover:text-[#505977]  cursor-pointer hover:font-normal"
+              className="a sm:hidden md:block  text-[#000]  hover:text-[#505977]  cursor-pointer hover:font-normal"
             >
               Testimonial
             </Link>
             <Link
               href={"#"}
-              className="sm:hidden md:block text-[#000]  hover:text-[#505977]  cursor-pointer hover:font-normal"
+              className="a sm:hidden md:block text-[#000]  hover:text-[#505977]  cursor-pointer hover:font-normal"
             >
               FAQ
             </Link>
