@@ -198,7 +198,7 @@ const page = () => {
               </div>
               <div className="card">
                 <h2 className="title">
-                  How to design your site footer like we did
+                  How to design your site footer like <br /> we did
                 </h2>
                 <p className="text">
                   Donec a eros justo. Fusce egestas tristique ultrices. Nam
@@ -271,7 +271,10 @@ const page = () => {
                     <p className="pp1">
                       Creating Streamlined Safeguarding Processes with OneRen
                     </p>
-                    <p className="pp2">Readmore </p>
+                    <div className="text_img">
+                      <p className="pp2">Readmore </p>
+                      <Image src={belgi} alt="" className="str" />
+                    </div>
                   </div>
                 </div>
                 <div className="card">
@@ -281,7 +284,10 @@ const page = () => {
                     <p className="pp1">
                       Creating Streamlined Safeguarding Processes with OneRen
                     </p>
-                    <p className="pp2">Readmore </p>
+                    <div className="text_img">
+                      <p className="pp2">Readmore </p>
+                      <Image src={belgi} alt="" className="str" />
+                    </div>
                   </div>
                 </div>
                 <div className="card">
@@ -291,7 +297,10 @@ const page = () => {
                     <p className="pp1">
                       Creating Streamlined Safeguarding Processes with OneRen
                     </p>
-                    <p className="pp2">Readmore </p>
+                    <div className="text_img">
+                      <p className="pp2">Readmore </p>
+                      <Image src={belgi} alt="" className="str" />
+                    </div>
                   </div>
                 </div>
               </div>
@@ -300,10 +309,14 @@ const page = () => {
         </section>
         <section className="demo">
           <div className="container">
+          <div className="demo_text">
             <h1 className="title">
-              Pellentesque suscipit fringilla libero eu.
+              Pellentesque suscipit <br /> fringilla libero eu.
             </h1>
-            <button className="submit__btn">Get a Demo</button>
+            <button className="submit__btn">
+              Get a Demo <Image src={belgi} alt="" />
+            </button>
+            </div>
           </div>
         </section>
       </main>

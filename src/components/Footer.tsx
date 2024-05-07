@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="container">
         <div className="cards">
           <div className="card">
-            <Image src={logo12} alt="asas" className="img" />
+            <Image src={logo12} alt="asas" className="imag" />
             <p className="pp">
               Copyright © 2020 Nexcent ltd. <br />
               All rights reserved
@@ -21,6 +21,7 @@ const Footer = () => {
               <Image src={yout} alt="asas" className="imag" />
             </div>
           </div>
+          <div className="cards__card">
           <div className="card">
             <h3 className="title">Company</h3>
             <p className="text">Abouy Us</p>
@@ -37,8 +38,8 @@ const Footer = () => {
             <p className="text">Privacy policy</p>
             <p className="text">Status</p>
           </div>
-          <div className="card">
-            <h3 className="title">Stay up to date</h3>
+          <div className="card card__sec">
+            <h3 className="tittle">Stay up to date</h3>
             <form className="form">
               <input
                 type="email"
@@ -47,6 +48,7 @@ const Footer = () => {
               />
               <Image src={telegram} alt="22" className="tel" />
             </form>
+          </div>
           </div>
         </div>
       </div>
