@@ -98,18 +98,21 @@ main {
   }
   .single-section {
     background-color: #fff;
-    margin-top: 40px;
+    
     .content {
       .title {
         //styleName: Heading/Headline 2;
+        margin-top: 40px;
         font-family: Inter;
         font-size: 36px;
         font-weight: 600;
         line-height: 44px;
         text-align: center;
+        color: #4d4d4d;
       }
       .text {
         //styleName: Body/Regular/Body 2;
+        margin-top: 10px;
         font-family: Inter;
         font-size: 16px;
         font-weight: 400;
@@ -137,6 +140,7 @@ main {
             line-height: 36px;
             text-align: center;
             max-width: 220px;
+            color: #4d4d4d;
           }
           .card__text {
             //styleName: Body/Regular/Body 3;
@@ -170,6 +174,7 @@ main {
           font-weight: 600;
           line-height: 44px;
           text-align: left;
+          color: #4d4d4d;
         }
         .text {
           //styleName: Body/Regular/Body 3;
@@ -268,6 +273,7 @@ main {
               font-weight: 700;
               line-height: 36px;
               text-align: left;
+              color: #717171;
             }
             .p2 {
               //styleName: Body/Regular/Body 2;
@@ -303,6 +309,7 @@ main {
           font-weight: 600;
           line-height: 44px;
           text-align: left;
+          color: #4d4d4d;
         }
         .text {
           //styleName: Body/Regular/Body 3;
@@ -379,6 +386,7 @@ main {
             align-items: center;
             justify-content: center;
             gap: 10px;
+            color: #4caf4f;
           }
         }
       }
@@ -386,6 +394,7 @@ main {
   }
   .caring {
     background-color: #fff;
+    margin-bottom: 25px;
     .content {
       display: flex;
       flex-direction: column;
@@ -394,6 +403,7 @@ main {
       gap: 30px;
       .title {
         //styleName: Heading/Headline 2;
+        margin-top: 40px;
         font-family: Inter;
         font-size: 36px;
         font-weight: 600;
@@ -433,7 +443,7 @@ main {
             max-height: 176px;
             border-radius: 8px;
             background-color: #f5f7fa;
-            margin-top: -50px;
+            margin-top: -80px;
             .pp1 {
               //styleName: Heading/Headline 4;
               font-family: Inter;
@@ -468,6 +478,7 @@ main {
     }
   }
   .demo {
+    padding-top: 35px;
     height: 300px;
     padding: 30px 0;
     display: flex;
@@ -488,8 +499,10 @@ main {
         font-weight: 600;
         line-height: 76px;
         text-align: center;
+        color: #4d4d4d;
       }
       .submit__btn {
+        margin-top: 15px;
         display: flex;
         align-items: center;
         justify-content: center;

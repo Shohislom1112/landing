@@ -76,7 +76,7 @@ const page = () => {
           <div className="container">
             <div className="content">
               <h2 className="title">
-                Manage your entire community in a single system
+                Manage your entire community <br /> in a single system
               </h2>
               <p className="text">Who is Nextcent suitable for?</p>
 
